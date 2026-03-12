@@ -1,112 +1,82 @@
-<div align="center">
-
-<img src="https://github.com/ualmec700.png" width="180" style="border-radius:50%">
-
 # Marcos Escánez
 
-### 🚀 Software Engineering Student
+### Software Engineering Student
 
-💻 Apasionado por el desarrollo de software, cloud computing y automatización.  
-Actualmente estudiando **Ingeniería Informática** y trabajando en proyectos de desarrollo web y despliegue en la nube.
+Bienvenido a mi página personal de desarrollo.  
+Soy estudiante de **Ingeniería Informática** interesado en el desarrollo de software, tecnologías cloud y automatización de despliegues.
 
-</div>
-
----
-
-# 👨‍💻 Sobre mí
-
-Hola! Soy **Marcos Escánez**, estudiante de **Ingeniería Informática**.
-
-Actualmente formo parte del equipo **Mentefria04**, donde trabajamos en proyectos de desarrollo colaborativo utilizando **GitHub Flow** y metodologías modernas de desarrollo.
-
-Me interesa especialmente:
-
-- Desarrollo Web
-- Automatización y DevOps
-- Cloud Computing
-- Seguridad informática
-- Desarrollo de videojuegos
-
-Siempre estoy aprendiendo nuevas tecnologías y buscando **retos que me permitan mejorar como desarrollador**.
+Actualmente trabajo en proyectos colaborativos utilizando **GitHub Flow**, desarrollo web y herramientas modernas de desarrollo.
 
 ---
 
-# 🧠 Tecnologías y herramientas
+# Sobre mí
 
-### Lenguajes y desarrollo
+Soy estudiante de Ingeniería Informática con interés en:
 
-![HTML](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
-
-### Herramientas
-
-![Git](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
-
-### Cloud
-
-![Azure](https://img.shields.io/badge/Azure-0089d6?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
----
-
-# 🚀 Proyectos
-
-## 🧠 Mentefria04 Blog
-
-Repositorio del equipo donde trabajamos con **GitHub Flow y despliegue en GitHub Pages**.
-
-🔗 https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04
-
----
-
-# 📊 Estadísticas de GitHub
-
-<div align="center">
-
-![Stats](https://github-readme-stats.vercel.app/api?username=ualmec700&show_icons=true&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ualmec700&layout=compact&theme=tokyonight)
-
-</div>
-
----
-
-# 📚 Actualmente aprendiendo
-
-- Desarrollo web avanzado
+- Desarrollo de aplicaciones web
 - Automatización de despliegues
-- Infraestructura cloud
-- Seguridad informática
+- Cloud computing
+- Control de versiones con Git
+- Desarrollo colaborativo
+
+Trabajo habitualmente con **GitHub**, entornos Linux y herramientas modernas de desarrollo de software.
 
 ---
 
-# 🎮 Intereses
+# Tecnologías
 
-Además de la programación también me gustan:
+## Desarrollo Web
 
-- ⚽ Fútbol
-- 🎮 Videojuegos
-- 💻 Tecnología
-- 🧠 Aprender nuevas herramientas
+- HTML
+- CSS
+- Markdown
+- GitHub Pages
+- Jekyll
+
+## Herramientas de desarrollo
+
+- Git
+- GitHub
+- Control de versiones
+- Terminal Linux
+
+## Cloud y despliegue
+
+- GitHub Pages
+- Azure
 
 ---
 
-# 📫 Contacto
+# Proyectos
 
-<div align="center">
+## Mentefria04
 
-🐙 GitHub  
-https://github.com/ualmec700
+Repositorio colaborativo del equipo donde trabajamos utilizando **GitHub Flow** y desarrollo de sitios estáticos.
 
-🏠 Blog del equipo  
+Repositorio:  
 https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04
 
-</div>
+---
+
+# Actividad en GitHub
+
+Estadísticas de desarrollo y actividad en mis repositorios:
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=ualmec700&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ualmec700&layout=compact)
 
 ---
 
-<div align="center">
+# Repositorios destacados
 
-⭐ Si te interesa mi trabajo puedes ver mis repositorios en GitHub.
+Puedes ver todos mis proyectos en:
 
-</div>
+https://github.com/ualmec700
+
+---
+
+# Contacto
+
+GitHub:  
+https://github.com/ualmec700
