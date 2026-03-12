@@ -1,27 +1,141 @@
-<div style="max-width: 650px; margin: 0 auto; background: linear-gradient(145deg, #1a1a2e, #16213e); border-radius: 20px; padding: 40px 30px; color: #e1e1e6; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; box-shadow: 0 15px 35px rgba(0,0,0,0.6); text-align: center; border: 1px solid #0f3460;">
+---
+layout: null
+---
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body {
+            background-color: #0a0a12;
+            background-image: radial-gradient(circle at 50% 50%, #1b1b3a 0%, #0a0a12 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
 
-  <img src="https://github.com/ualmec700.png" alt="Avatar de Marcos" style="width: 160px; height: 160px; border-radius: 50%; border: 4px solid #00f2fe; box-shadow: 0 0 25px rgba(0, 242, 254, 0.5); margin-bottom: 25px;">
+        .card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            border-radius: 24px;
+            padding: 50px 40px;
+            width: 90%;
+            max-width: 550px;
+            text-align: center;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 1s ease-out;
+        }
 
-  <h1 style="margin: 0; font-size: 2.8em; color: #ffffff; letter-spacing: 1px;">Marcos Escánez</h1>
-  <h3 style="margin: 10px 0 25px; color: #4facfe; font-weight: 400; font-size: 1.2em;">🚀 Software Engineering Student</h3>
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-  <div style="text-align: left; background: rgba(255,255,255,0.03); padding: 25px; border-radius: 12px; margin-bottom: 30px; border-left: 4px solid #4facfe;">
-    <p style="margin: 0; font-size: 1.1em; line-height: 1.7;">
-      ¡Qué pasa! Soy el responsable del repositorio del equipo <strong>Mentefria04</strong>. 
-      Actualmente estoy dominando el desarrollo de sitios estáticos, exprimiendo a tope el <em>GitHub Flow</em> y aprendiendo a automatizar despliegues en la nube. ¡Siempre listo para el siguiente reto!
-    </p>
-  </div>
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #00d2ff;
+            box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
 
-  <div style="display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-bottom: 35px;">
-    <span style="background: #e34f26; color: white; padding: 6px 16px; border-radius: 25px; font-size: 0.9em; font-weight: 600; box-shadow: 0 4px 10px rgba(227, 79, 38, 0.3);">HTML/CSS</span>
-    <span style="background: #f05032; color: white; padding: 6px 16px; border-radius: 25px; font-size: 0.9em; font-weight: 600; box-shadow: 0 4px 10px rgba(240, 80, 50, 0.3);">Git & GitHub</span>
-    <span style="background: #0089d6; color: white; padding: 6px 16px; border-radius: 25px; font-size: 0.9em; font-weight: 600; box-shadow: 0 4px 10px rgba(0, 137, 214, 0.3);">Azure</span>
-    <span style="background: #8a2be2; color: white; padding: 6px 16px; border-radius: 25px; font-size: 0.9em; font-weight: 600; box-shadow: 0 4px 10px rgba(138, 43, 226, 0.3);">Videojuegos</span>
-  </div>
+        .profile-img:hover {
+            transform: scale(1.05) rotate(5deg);
+        }
 
-  <div style="display: flex; flex-direction: column; gap: 15px; max-width: 400px; margin: 0 auto;">
-    <a href="https://github.com/ualmec700" style="text-decoration: none; background: #2b3137; color: white; padding: 14px 20px; border-radius: 10px; font-weight: bold; font-size: 1.1em; transition: all 0.2s ease; border: 1px solid #444;">🐙 Ver mi GitHub</a>
-    <a href="https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04" style="text-decoration: none; background: linear-gradient(to right, #4facfe 0%, #00f2fe 100%); color: #000; padding: 14px 20px; border-radius: 10px; font-weight: bold; font-size: 1.1em; box-shadow: 0 5px 15px rgba(0, 242, 254, 0.4);">🏠 Volver al Blog del Equipo</a>
-  </div>
+        h1 {
+            color: white;
+            font-size: 2.5em;
+            margin: 10px 0;
+            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+        }
 
-</div>
+        .team-badge {
+            display: inline-block;
+            background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
+            color: white;
+            padding: 8px 20px;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(58, 123, 213, 0.4);
+        }
+
+        .bio {
+            color: #ccc;
+            line-height: 1.6;
+            font-size: 1.1em;
+            background: rgba(0,0,0,0.2);
+            padding: 20px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            text-decoration: none;
+            padding: 15px;
+            border-radius: 12px;
+            font-weight: 700;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-github {
+            background: #24292e;
+            color: white;
+            border: 1px solid #444;
+        }
+
+        .btn-github:hover {
+            background: #333;
+            box-shadow: 0 0 15px rgba(255,255,255,0.1);
+        }
+
+        .btn-main {
+            background: white;
+            color: #1a1a2e;
+        }
+
+        .btn-main:hover {
+            background: #f0f0f0;
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://github.com/ualmec700.png" alt="Marcos" class="profile-img">
+        
+        <h1>Marcos Escánez</h1>
+        
+        <div class="team-badge">Responsable @ Mentefria04</div>
+
+        <div class="bio">
+            Estudiante de Ingeniería Informática.
+        </div>
+
+        <div class="links-container">
+            <a href="https://github.com/ualmec700" class="btn btn-github">🐙 Mi Perfil de GitHub</a>
+            <a href="https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04" class="btn btn-main">🏠 Ir al Blog del Equipo</a>
+        </div>
+    </div>
+
+</body>
+</html>
