@@ -1,3 +1,11 @@
 theme: jekyll-theme-minimal
-title: Marcos Escanez homepage
-description: Blog personal
+
+title: Marcos Escánez
+description: Software Engineering Student | Web Development | Cloud & DevOps
+
+logo: https://github.com/ualmec700.png
+
+show_downloads: false
+
+github:
+  is_project_page: false
