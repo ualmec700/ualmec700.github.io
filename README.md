@@ -75,4 +75,4 @@ Repositorio del proyecto:
 # 🔗 Enlaces
 
 - GitHub personal: [🐙 ualmec700](https://github.com/ualmec700)  
-- Blog del equipo: [🏠 Mentefria04](https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04)
+- Blog del equipo: [🏠 Mentefria04](https://ualhmis2026-mentefria04.github.io/ualhmis2026-mentefria04/)
