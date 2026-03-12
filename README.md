@@ -1,141 +1,112 @@
+<div align="center">
+
+<img src="https://github.com/ualmec700.png" width="180" style="border-radius:50%">
+
+# Marcos Escánez
+
+### 🚀 Software Engineering Student
+
+💻 Apasionado por el desarrollo de software, cloud computing y automatización.  
+Actualmente estudiando **Ingeniería Informática** y trabajando en proyectos de desarrollo web y despliegue en la nube.
+
+</div>
+
 ---
-layout: null
+
+# 👨‍💻 Sobre mí
+
+Hola! Soy **Marcos Escánez**, estudiante de **Ingeniería Informática**.
+
+Actualmente formo parte del equipo **Mentefria04**, donde trabajamos en proyectos de desarrollo colaborativo utilizando **GitHub Flow** y metodologías modernas de desarrollo.
+
+Me interesa especialmente:
+
+- Desarrollo Web
+- Automatización y DevOps
+- Cloud Computing
+- Seguridad informática
+- Desarrollo de videojuegos
+
+Siempre estoy aprendiendo nuevas tecnologías y buscando **retos que me permitan mejorar como desarrollador**.
+
 ---
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <style>
-        body {
-            background-color: #0a0a12;
-            background-image: radial-gradient(circle at 50% 50%, #1b1b3a 0%, #0a0a12 100%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-        }
 
-        .card {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(15px);
-            -webkit-backdrop-filter: blur(15px);
-            border-radius: 24px;
-            padding: 50px 40px;
-            width: 90%;
-            max-width: 550px;
-            text-align: center;
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
-            animation: fadeIn 1s ease-out;
-        }
+# 🧠 Tecnologías y herramientas
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
+### Lenguajes y desarrollo
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            border: 3px solid #00d2ff;
-            box-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
-            margin-bottom: 20px;
-            transition: transform 0.3s ease;
-        }
+![HTML](https://img.shields.io/badge/HTML5-e34f26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572b6?style=for-the-badge&logo=css3&logoColor=white)
 
-        .profile-img:hover {
-            transform: scale(1.05) rotate(5deg);
-        }
+### Herramientas
 
-        h1 {
-            color: white;
-            font-size: 2.5em;
-            margin: 10px 0;
-            text-shadow: 0 2px 10px rgba(0,0,0,0.3);
-        }
+![Git](https://img.shields.io/badge/Git-f05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
-        .team-badge {
-            display: inline-block;
-            background: linear-gradient(90deg, #00d2ff 0%, #3a7bd5 100%);
-            color: white;
-            padding: 8px 20px;
-            border-radius: 50px;
-            font-weight: bold;
-            font-size: 1.1em;
-            margin-bottom: 25px;
-            box-shadow: 0 4px 15px rgba(58, 123, 213, 0.4);
-        }
+### Cloud
 
-        .bio {
-            color: #ccc;
-            line-height: 1.6;
-            font-size: 1.1em;
-            background: rgba(0,0,0,0.2);
-            padding: 20px;
-            border-radius: 15px;
-            margin-bottom: 30px;
-        }
+![Azure](https://img.shields.io/badge/Azure-0089d6?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
-        .links-container {
-            display: flex;
-            flex-direction: column;
-            gap: 15px;
-        }
+---
 
-        .btn {
-            text-decoration: none;
-            padding: 15px;
-            border-radius: 12px;
-            font-weight: 700;
-            transition: all 0.3s ease;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-        }
+# 🚀 Proyectos
 
-        .btn-github {
-            background: #24292e;
-            color: white;
-            border: 1px solid #444;
-        }
+## 🧠 Mentefria04 Blog
 
-        .btn-github:hover {
-            background: #333;
-            box-shadow: 0 0 15px rgba(255,255,255,0.1);
-        }
+Repositorio del equipo donde trabajamos con **GitHub Flow y despliegue en GitHub Pages**.
 
-        .btn-main {
-            background: white;
-            color: #1a1a2e;
-        }
+🔗 https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04
 
-        .btn-main:hover {
-            background: #f0f0f0;
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.2);
-        }
-    </style>
-</head>
-<body>
+---
 
-    <div class="card">
-        <img src="https://github.com/ualmec700.png" alt="Marcos" class="profile-img">
-        
-        <h1>Marcos Escánez</h1>
-        
-        <div class="team-badge">Responsable @ Mentefria04</div>
+# 📊 Estadísticas de GitHub
 
-        <div class="bio">
-            Estudiante de Ingeniería Informática.
-        </div>
+<div align="center">
 
-        <div class="links-container">
-            <a href="https://github.com/ualmec700" class="btn btn-github">🐙 Mi Perfil de GitHub</a>
-            <a href="https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04" class="btn btn-main">🏠 Ir al Blog del Equipo</a>
-        </div>
-    </div>
+![Stats](https://github-readme-stats.vercel.app/api?username=ualmec700&show_icons=true&theme=tokyonight)
 
-</body>
-</html>
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ualmec700&layout=compact&theme=tokyonight)
+
+</div>
+
+---
+
+# 📚 Actualmente aprendiendo
+
+- Desarrollo web avanzado
+- Automatización de despliegues
+- Infraestructura cloud
+- Seguridad informática
+
+---
+
+# 🎮 Intereses
+
+Además de la programación también me gustan:
+
+- ⚽ Fútbol
+- 🎮 Videojuegos
+- 💻 Tecnología
+- 🧠 Aprender nuevas herramientas
+
+---
+
+# 📫 Contacto
+
+<div align="center">
+
+🐙 GitHub  
+https://github.com/ualmec700
+
+🏠 Blog del equipo  
+https://github.com/ualhmis2026-mentefria04/ualhmis2026-mentefria04
+
+</div>
+
+---
+
+<div align="center">
+
+⭐ Si te interesa mi trabajo puedes ver mis repositorios en GitHub.
+
+</div>
