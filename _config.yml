@@ -1,11 +1,9 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-cayman
 
-title: Marcos Escánez
+title: Marcos Escánez Clenmente Web
 description: Software Engineering Student | Web Development | Cloud & DevOps
-
-logo: https://github.com/ualmec700.png
-
-show_downloads: false
 
 github:
   is_project_page: false
+
+show_downloads: false
